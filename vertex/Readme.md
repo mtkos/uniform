@@ -1,6 +1,6 @@
 ## coordinates for uniform star polyhedra
 
-This repository contains two small Python programs to compute exact (not numerical approximations) coordinates for the vertices of a number of uniform star polyhedra. To be precise: the non-snub ones.
+This map contains two small Python programs to compute exact (not numerical approximations) coordinates for the vertices of a number of uniform star polyhedra. To be precise: the non-snub ones.
 See the Wikipedia page <https://en.wikipedia.org/wiki/Uniform_star_polyhedron>. The motivation is that it is much simpler to 'see' the symmetry axes of these polyhedra than the (coordinates of) the
 vertices. From the symmetry axes of adjacent faces, together with the corresponding rotation angles, a vertex can be computed by solving a linear equation. This vertex is determined up to a scalar
 multiple of course. This multiple is determined by specifying the z-coordinate for the vertex (so we always take care that it is non-zero). This is done in such a way that the resulting coordinates
