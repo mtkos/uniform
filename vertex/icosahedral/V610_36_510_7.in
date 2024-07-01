@@ -1,5 +1,5 @@
 -1, 0, phi
-S.One*10/3
+Integer(1)*10/3
 1, -1, 1
-S.One*6
+Integer(1)*6
 phi + 2

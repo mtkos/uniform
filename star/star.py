@@ -67,4 +67,4 @@ f.close()
 
 mesh = open3d.io.read_triangle_mesh(f.name)
 mesh.compute_vertex_normals()
-open3d.visualization.draw_geometries([mesh], mesh_show_wireframe = False, window_name = argv[1])
+open3d.visualization.draw_geometries([mesh], mesh_show_wireframe = False, mesh_show_back_face = True, window_name = argv[1])

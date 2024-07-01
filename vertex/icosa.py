@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-from sympy import init_printing, sqrt, Matrix, to_number_field, pi, symbols, solve, pprint, S, simplify
+from sympy import init_printing, sqrt, Matrix, to_number_field, pi, symbols, solve, pprint, Integer, simplify
 from rotations import rot, rotations
 from fileinput import input
 from sys import argv

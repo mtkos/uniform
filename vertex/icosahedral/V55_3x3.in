@@ -1,5 +1,5 @@
 1, 0, phi
-S.One*5/3
+Integer(1)*5/3
 phi, 1, 0
 5
 phi
